@@ -14,7 +14,7 @@ public class BrowserUtils {
 	
 	public static RemoteWebDriver getDriver() {
 		Logger logger=LoggerUtility.getLogger("BrowserUtils.getDriver()");
-		//A new comment
+		//A new comment - New sysout changes
 		System.out.println("Testing");
 		RemoteWebDriver driver=null;
 		String browserName=System.getProperty("browser");
