@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on the locator:=By.id: login2]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text:=bharathedu1 in the locator:=By.id: loginusername]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text:=123456 in the locator:=By.id: loginpassword]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+    <line>
+      <![CDATA[Text of the element is:=]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the locator:=By.id: login2]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text:=bhar232athedu1 in the locator:=By.id: loginusername]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text:=899812 in the locator:=By.id: loginpassword]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+    <line>
+      <![CDATA[Getting the text from Alert popup]]>
+    </line>
+    <line>
+      <![CDATA[Alert message is:=User does not exist.]]>
+    </line>
+    <line>
+      <![CDATA[Accepting the alert]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the locator:=By.id: login2]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text:=bharathedu1 in the locator:=By.id: loginusername]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text:=123456 in the locator:=By.id: loginpassword]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+    <line>
+      <![CDATA[Text of the element is:=]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the locator:=By.id: login2]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text:=bharathedu2 in the locator:=By.id: loginusername]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text:=welcome1 in the locator:=By.id: loginpassword]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+    <line>
+      <![CDATA[Text of the element is:=]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-24T09:26:06 IST" name="Default suite" finished-at="2025-05-24T09:26:29 IST" duration-ms="23020">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner1@fa4c865]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-05-24T09:26:06 IST" name="Default test" finished-at="2025-05-24T09:26:29 IST" duration-ms="23020">
+      <class name="runners.TestRunner1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner1@fa4c865]" started-at="2025-05-24T09:26:06 IST" name="setUpClass" finished-at="2025-05-24T09:26:07 IST" duration-ms="632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e7b65d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner1@fa4c865]" started-at="2025-05-24T09:26:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:26:13 IST" duration-ms="5609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the succcessful Login functionality of DemoBlaze using valid credentails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature test scenarios of DemoBlaze application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on the locator:=By.id: login2]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text:=bharathedu1 in the locator:=By.id: loginusername]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text:=123456 in the locator:=By.id: loginpassword]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+            <line>
+              <![CDATA[Text of the element is:=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner1@fa4c865]" started-at="2025-05-24T09:26:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:26:18 IST" duration-ms="5773" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Login functionality of DemoBlaze using invalid credentails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature test scenarios of DemoBlaze application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [User does not exis] but found [User does not exist.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [User does not exis] but found [User does not exist.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at steps.StepDefination.alert_message_with_error_should_be_shown_to_the_user(StepDefination.java:63)
+at ✽.Alert message with error should be shown to the user(file:///D:/edureka17/workspace/seleniumbddmvnproject/features/Login.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on the locator:=By.id: login2]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text:=bhar232athedu1 in the locator:=By.id: loginusername]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text:=899812 in the locator:=By.id: loginpassword]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+            <line>
+              <![CDATA[Getting the text from Alert popup]]>
+            </line>
+            <line>
+              <![CDATA[Alert message is:=User does not exist.]]>
+            </line>
+            <line>
+              <![CDATA[Accepting the alert]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner1@fa4c865]" started-at="2025-05-24T09:26:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:26:23 IST" duration-ms="5019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the succcessful Login functionality of DemoBlaze using valid credentails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature test scenarios of DemoBlaze application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on the locator:=By.id: login2]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text:=bharathedu1 in the locator:=By.id: loginusername]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text:=123456 in the locator:=By.id: loginpassword]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+            <line>
+              <![CDATA[Text of the element is:=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner1@fa4c865]" started-at="2025-05-24T09:26:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:26:29 IST" duration-ms="5856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the succcessful Login functionality of DemoBlaze using valid credentails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature test scenarios of DemoBlaze application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on the locator:=By.id: login2]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text:=bharathedu2 in the locator:=By.id: loginusername]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text:=welcome1 in the locator:=By.id: loginpassword]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+            <line>
+              <![CDATA[Text of the element is:=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner1@fa4c865]" started-at="2025-05-24T09:26:29 IST" name="tearDownClass" finished-at="2025-05-24T09:26:29 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

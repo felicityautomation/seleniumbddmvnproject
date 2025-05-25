@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.44 s <<< FAILURE! -- in TestSuite
+runners.TestRunner1.runScenario["Verify the Login functionality of DemoBlaze using invalid credentails", "Login feature test scenarios of DemoBlaze application"](2) -- Time elapsed: 5.115 s <<< FAILURE!
+java.lang.AssertionError: expected [User does not exis] but found [User does not exist.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at steps.StepDefination.alert_message_with_error_should_be_shown_to_the_user(StepDefination.java:63)
+	at ✽.Alert message with error should be shown to the user(file:///D:/edureka17/workspace/seleniumbddmvnproject/features/Login.feature:20)
+
